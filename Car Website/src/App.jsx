@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'boxicons/css/boxicons.min.css'
 import './App.css'
-import Banner from './pages/banner'
 import React,{useState, useEffect} from 'react'
 import Header from './components/header'
 import {Routes, Route} from 'react-router-dom'
+import Banner from './pages/banner'
 import Cars from './pages/cars'
 import Services from './pages/services'
 import CarsDetails from './pages/carsDetails'
@@ -16,6 +16,7 @@ export const AppContext = React.createContext()
 
 function App() {
 const [data, setData] = useState([])
+const [library, setLibrary] = useState([])
 
 const fetchData = ()=>{
   fetch("http://localhost:5173/public/api/vehiclesData.json").then(res=>res.json()).then(data => setData(data)).catch(e=>console.log(e))
@@ -30,7 +31,7 @@ useEffect(()=>{
 
   return (
     <>
-      <AppContext.Provider value={{data, setData}}>
+      <AppContext.Provider value={{data, setData, library, setLibrary}}>
         <Header />
         <Routes>
          <Route exact path='/' element={<Banner />}/>

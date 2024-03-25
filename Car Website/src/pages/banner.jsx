@@ -14,7 +14,7 @@ const Banner = () => {
   }
 
   const handleSlideChange = (ind)=>{
-    if(ind>=4){
+    if(ind>=5){
       ind = -1;
     }
 
@@ -31,7 +31,7 @@ const Banner = () => {
   return (
     <>
     <div className='banner'>
-      {cars && cars.length>0 && cars.slice(0,5).map((car, index) =>(
+      {cars && cars.length>0 && cars.slice(0,6).map((car, index) =>(
         <div key={car._id} className={`slide ${car.active? 'active':undefined}`}>
           <div className="container-fluid">
             <div className="row banner-top">  {/*first row*/} {/*using Bootstrap. Each row contains 12 columns in bootstrap. Dividing into two parts 4 and 8.*/}

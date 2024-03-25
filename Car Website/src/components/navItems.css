@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     right: -300px;
-    width: 300px;
+    width: 280px;
     height: 100vh;
     background: var(--first);
     backdrop-filter: blur(20px);

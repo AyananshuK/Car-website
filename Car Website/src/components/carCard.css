@@ -1,0 +1,86 @@
+.car{
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 30px rgba(0,0,0,0.2);
+}
+
+.car:hover .car-img img{
+    transform: scale(1.1);
+}
+
+.car-img{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.car-img img{
+    transition: 0.3s ease-in-out;
+}
+
+.car h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.car a{
+    color: var(--first);
+}
+.car a:hover{
+    color: #f82249;
+}
+
+.car p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color:#060c22;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.car .price{
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+    font-family: "Racing Sans One", cursive;
+    color:var(--first);
+    font-size: 1.5rem;
+    float: right;
+}
+
+.car .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car .buttons a{
+    color: #ffffff;
+    background:var(--first);
+    padding: 5px 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+.car .buttons .details{
+    color:#ffffff;
+    background:var(--first);
+}
+.car .buttons .details:hover{
+    background: #ffffff;
+    color:var(--first);
+}
+
+.car .buttons .like{
+    background: #f82249;
+    color: #ffffff;
+}
+
+.car .buttons .like.active{
+    color: #f82249;
+    background: #ffffff;
+}

@@ -1,0 +1,65 @@
+.car-details .icon-box{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 0 35px 0 rgba(68,88,144,0.12);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    text-align: center;
+    height: 210px;
+    width: 252px;
+}
+.car-details .icon-box::before{
+    content: '';
+    position: absolute;
+    background: #fdeff2;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.4s;
+    z-index: -1;
+}
+
+.car-details .icon-box:hover::before {
+    background: var(--first);
+    top: 0;
+    border-radius: 0px;
+}
+.car-details .icon{
+    margin-bottom: 15px;
+}
+
+.car-details .icon i{
+    font-size: 48px;
+    line-height: 1;
+    color: var(--first);
+    transition: all 0.3s ease-in-out; 
+}
+
+.car-details .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.car-details .title a{
+    color: #111111;
+}
+
+.car-details .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.car-details .icon-box:hover .title a, 
+.car-details .icon-box:hover .description{
+    color: #ffffff;
+}
+
+.car-details .icon-box:hover .icon i{
+    color:#fff;
+}
+

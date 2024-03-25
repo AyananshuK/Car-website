@@ -1,12 +1,16 @@
-import React,{useState} from 'react'
+import React,{useState, useContext} from 'react'
 import './header.css'
 import NavItems from './navItems'
 import navItemsData from '../data/navItemsData'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { AppContext } from '../App'
 
 const Header = () => {
     const [open, setOpen] = useState(false)
     const [navItems, setnavItems] = useState(navItemsData)
+    const location = useLocation()
+    const {library, setLibrary} = useContext(AppContext)
+
 
 
     const handleToggleMenu = ()=>{
@@ -27,11 +31,11 @@ const Header = () => {
 
   return (
     <header>
-        <a href='/' className='logo'>Cars</a>
+        <a href='/' className='logo' style={location.pathname==='/'?{color: '#000000'}:{color:'#ffffff'}}>Cars</a>
         <div>
             <Link to='/library' className='like'>
                 <i className='bi bi-heart-fill'></i>
-                <span className='likedNumbers'>0</span>
+                <span className='likedNumbers'>{library.length}</span>
             </Link>
             <a href="#" className='menu' onClick={handleToggleMenu}>
                 {open? <i className='bi bi-x-lg'></i> : <i className='bi bi-list'></i>}
