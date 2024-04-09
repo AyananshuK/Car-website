@@ -18,6 +18,14 @@ function App() {
 const [data, setData] = useState([])
 const [library, setLibrary] = useState([])
 
+useEffect(() => {
+  let libraryString = localStorage.getItem("library")
+  if(libraryString){ //If not null
+    let library = JSON.parse(localStorage.getItem("library"))
+    setLibrary(library)
+  }
+}, [])
+
 const fetchData = ()=>{
   fetch("http://localhost:5173/public/api/vehiclesData.json").then(res=>res.json()).then(data => setData(data)).catch(e=>console.log(e))
 }

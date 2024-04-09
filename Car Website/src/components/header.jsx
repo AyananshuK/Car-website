@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <header>
-        <a href='/' className='logo' style={location.pathname==='/'?{color: '#000000'}:{color:'#ffffff'}}>Cars</a>
+        <a href='/' className='logo' style={location.pathname==='/'?{color: '#000000'}:{color:'#0eaccc'}}>Cars</a>
         <div>
             <Link to='/library' className='like'>
                 <i className='bi bi-heart-fill'></i>

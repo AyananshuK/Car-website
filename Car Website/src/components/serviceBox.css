@@ -1,0 +1,81 @@
+.service-box .icon-box{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 0 35px 0 rgba(68,88,144,0.12);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    height: 210px;
+    width: 252px;
+}
+.service-box .icon-box::before{
+    content: '';
+    position: absolute;
+    background: #fdeff2;
+    right: 0;
+    left: 76%;
+    bottom: 76%;
+    top: 0;
+    border-radius: 0 0 0 100%;
+    transition: all 0.4s;
+    z-index: -1;
+    background-color: #c5f7f7;
+}
+
+.service-box .icon-box:hover::before {
+    background: var(--first);
+    bottom: 0;
+    left: 0;
+    border-radius: 0px;
+}
+.service-box .icon{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--first);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.service-box .icon i{
+    font-size: 1.8rem;
+    line-height: 1;
+    color: white;
+    transition: all 0.3s ease-in-out; 
+}
+
+.service-box .icon-box:hover .icon{
+    background-color: white;
+}
+.service-box .icon-box:hover .icon i{
+    color: var(--first);
+}
+
+.service-box .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.service-box .title a{
+    color: #111111;
+}
+
+.service-box .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    margin: 0 15px 15px 10px;
+}
+
+.service-box .icon-box:hover .title a, 
+.service-box .icon-box:hover .description{
+    color: #ffffff;
+}
+
+

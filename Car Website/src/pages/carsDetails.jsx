@@ -37,28 +37,26 @@ const CarsDetails = () => {
               <h2>Car Details</h2>
               <div className="details-box">
                 <i className='bi bi-emoji-smile'></i>
-                <span>Lorem ipsum dolor sit amet</span>
-                <p><strong>Lorem, ipsum</strong>Lorem ipsum dolor sit amet consectetur</p>
+                <span>Engine</span>
+                <p><strong>Engine data: </strong>{car.engineData}</p>
               </div>
 
               <div className="details-box">
                 <i className='bi bi-journal-richtext'></i>
-                <span>Lorem ipsum dolor sit amet</span>
-                <p><strong>Lorem, ipsum</strong>Lorem ipsum dolor sit amet consectetur</p>
+                <span>Transmission</span>
+                <p><strong>Transmission: </strong>{car.transmission}</p>
               </div>
 
               <div className="details-box">
                 <i className='bi bi-clock'></i>
-                <span>Lorem ipsum dolor sit amet</span>
-                <p><strong>Lorem, ipsum</strong>Lorem ipsum dolor sit amet consectetur</p>
+                <span>Type</span>
+                <p><strong>Type: </strong>{car.type}</p>
               </div>
 
               <div className="details-box">
                 <i className='bi bi-award'></i>
-                <span>Lorem ipsum dolor sit amet</span>
-                <p>
-                  <strong>Lorem, ipsum</strong>Lorem ipsum dolor sit amet consectetur
-                </p>
+                <span>Category</span>
+                <p><strong>Category: </strong>{car.category}</p>
               </div>
             </div>
 
@@ -67,9 +65,8 @@ const CarsDetails = () => {
           <div className="col-lg-4 p-0 details-right">
             <img src={car.rightImg} alt="" className='details-img-right img-fluid'/>
             <div className="d-flex gap-2">
-              <IconBox icon='bx bx-tachometer' title='Lorem, ipsum' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              inventore!' />
-              <IconBox icon='bx bx-world' title='Loerm' />
+              <IconBox icon='bx bx-tachometer' title='Top speed' description={car.topSpeed} />
+              <IconBox icon='bx bx-world' title='Rating' description={`${car.rating} stars`}/>
             </div>
             <div className="details-description">
               <h4>Description</h4>

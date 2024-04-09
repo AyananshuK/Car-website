@@ -20,7 +20,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 400178,
     "rating": 5,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "The Revuelto combines classic Lamborghini proportions with strong, sculpted lines that promise a new future. Explore a silhouette that embodies confidence, power, strength, and groundbreaking aerodynamics.Lamborghini unveiled Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car.",
     "active": true
   },
   {
@@ -44,7 +45,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 245195,
     "rating": 4,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "The pursuit of lightness is the pursuit of greatness. The 765LT light supercar spider is defined by ruthless, exhaustive weight saving. Like every Longtail before it. The results are felt on every straight. In every corner. The figures speak volumes. This car is 80kg lighter than the lithe, 720S Spider. And has a class-leading power-to-weight ratio.",
     "active": false
   },
   {
@@ -68,7 +70,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 217398,
     "rating": 5,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "Italian motorsport engineering triumphs again. The hi-tech, ultra-light Carbon Fibre Monocoque was developed to make the MC20 stronger, faster, safer and dynamically phenomenal thanks to its high torsional and bending stiffness. Every inch of the MC20 is crafted for a one-of-a-kind driving excitement.",
     "active": false
   },
   {
@@ -92,7 +95,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 370217,
     "rating": 3,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "Lamborghini Urus is the first Super Sport Utility Vehicle in the world, merging the soul of a super sports car with the practical functionality of an SUV. Powered by Lamborghini’s 4.0-liter twin-turbo V8 engine, the Urus is all about a performance mindset that brings together fun-to-drive and astounding vehicle capabilities.",
     "active": false
   },
   {
@@ -101,7 +105,7 @@
     "leftImg": "../assets/vehicles/maserati-1-1.jpg",
     "rightImg": "../assets/vehicles/maserati-1-2.jpg",
     "pageBgImg": "../assets/vehicles/maserati-1-3.jpg",
-    "video": "../assets/videos/maserati.mp4",
+    "video": "../assets/videos/maseratiQuattroporte.mp4",
     "title": "maserati quattroporte",
     "year": "2022",
     "make": "Maserati",
@@ -116,7 +120,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 129925,
     "rating": 4,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "Imposing but slender, smooth surfaces and ample volumes, remarkable without showy excesses. The modern Quattroporte embraces the essence of its evocative heritage to prove that true beauty is ageless. Captivating quality can also be found inside. The Quattroporte rejects excesses whilst offering exclusive material and premium features.",
     "active": false
   },
   {
@@ -125,7 +130,7 @@
     "leftImg": "../assets/vehicles/mclaren-2-3.jpg",
     "rightImg": "../assets/vehicles/mclaren-2-1.jpg",
     "pageBgImg": "../assets/vehicles/mclaren-2-2.jpg",
-    "video": "",
+    "video": "../assets/videos/mclarenARTURA.mp4",
     "title": "mclaren ARTURA",
     "year": "2022",
     "make": "Mclaren",
@@ -140,7 +145,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 183872,
     "rating": 3,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "Introducing the new Artura, a high-performance hybrid supercar to it’s core. From the advanced McLaren Carbon Fibre Lightweight Architecture (MCLA) to the V6 twin-turbocharged hybrid petrol engine that forms its beating heart. Our relentless pursuit of lightness reaches another level.",
     "active": false
   },
   {
@@ -164,7 +170,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 167373,
     "rating": 3,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "Enhanced engagement. Greater performance. Refined aerodynamics. Upgraded technology...Every aspect of 750S has been scrutinised and improved. Inside and out. Our relentless search for better can be felt in each core element.",
     "active": false
   },
   {
@@ -188,7 +195,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 159201,
     "rating": 4,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "The 750S Spider is the next-level convertible supercar. A new benchmark. In performance. Engagement. And purity of response. With the added sensory thrill of the elements. Rushing in. Screaming by. And magnified by the 750S Spider’s glorious new exhaust sound. ",
     "active": false
   },
   {
@@ -212,7 +220,8 @@
     "engineData": "8cyl 4.5L Petrol",
     "price": 194108,
     "rating": 4,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui",
+    "topSpeed": "350 Kmph",
+    "description": "The new McLaren 765LT has a legend to live up to: Longtail. Every car that’s carried this name has been unique. Extreme and utterly focused around the driver. All about maximum engagement. Searing performance. Sensational handling.",
     "active": false
   }
 ]

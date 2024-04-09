@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import './carCard.css'
 import {Link} from 'react-router-dom'
 import CarRatnig from './carRating'
@@ -13,6 +13,10 @@ const CarCard = ({car}) => {
   const handleRemoveFromLibrary = car=>{
     setLibrary(library.filter(item=> item._id !== car._id))
   }
+
+  useEffect(() => {
+    localStorage.setItem("library", JSON.stringify(library))
+  }, [library]) 
 
   return (
     <div className='col-lg-4 col-md-6'>

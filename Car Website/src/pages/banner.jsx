@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Banner = () => {
   const {data: cars, setData: setCars} = useContext(AppContext)  //Rename
-  const [video, setVideo] = useState(false)
+  const [video, setVideo] = useState(true)
 
   const toggleVideo = ()=>{
     setVideo(!video)

@@ -20,6 +20,7 @@
     top: 100%;
     transition: all 0.4s;
     z-index: -1;
+    border-radius: 0px;
 }
 
 .car-details .icon-box:hover::before {
@@ -49,8 +50,9 @@
 }
 
 .car-details .description{
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 1.8rem;
+    font-family: "Racing Sans One", cursive;
+    line-height: 50px;
     margin-bottom: 0;
 }
 

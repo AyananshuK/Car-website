@@ -1,5 +1,6 @@
 import React from "react";
 import "./iconBox.css";
+import CarRatnig from './carRating'
 
 const IconBox = ({icon, title, description}) => {
   return (
@@ -12,7 +13,7 @@ const IconBox = ({icon, title, description}) => {
           <a href="#">{title}</a>
         </h4>
         <p className="description">
-          {description? description: 'No description available'}
+          {description? description: undefined}
         </p>
       </div>
     </div>

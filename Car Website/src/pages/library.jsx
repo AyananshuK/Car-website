@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
 const Library = () => {
   const {library:cars} = useContext(AppContext)
 
-
   return (
     <div id='library' className='page library'>
       <img src={bgImg} alt="" className='img-fluid page-img'/>
